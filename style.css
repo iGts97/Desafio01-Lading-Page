@@ -1,0 +1,151 @@
+/* PAGINA PRINCIPAL */
+*{
+    /* FONTE */
+    font-family: "Inter";
+    font-style: normal;
+    /* MARGEM */
+    margin: 0px;
+}
+/* MENU SUPERIOR */
+#menu-superior{
+    /* COR */
+    background-color: #303030;
+}
+#h1-menuSuperior{
+    /* MARGEM */
+    padding-top: 150px;
+    margin-left: 62px;
+    /* FONTE */
+    font-size: 50px;
+    font-weight: 600;
+    /* COR */
+    color: white;
+
+}
+#p-menuSuperior{
+    /* COR */
+    color: white;
+    /* MARGEM */
+    margin:20px 0px 0px 62px;
+    padding-bottom: 135px;
+    /* FONTE */
+    font-size: 18px;
+    font-weight: 500;
+}
+/* MENU INFORMÇÃO */
+#menu-informacao{
+    /* DISPLAY TRANSFORMANDO EM COLUNAS */
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.h1-menuInformacao{
+    /* FONTE */
+    font-size: 35px;
+    font-weight: 600;
+    /* MARGEM */
+    margin-top: 62px;
+    margin-left: 171px;
+}
+.p-menuInformacao{
+    /* FONTE */
+    font-size: 17px;
+    font-weight: 400;
+    /* MARGEM */
+    margin-top: 5px;
+    
+}
+/* MENU HISTORIA */
+#menu-historia{
+    /* DISPLAY TRANSFORMANDO EM COLUNAS */
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#h1-menu-historia{
+    /* MARGEM */
+    margin-top: 280px;
+    margin-left: 72px;
+    /* FONTE */
+    font-size: 40px;
+}
+#p-menu-historia{
+    /* MARGEM */
+    margin-left: 72px;
+    /* FONTE */
+    font-size: 24px;
+}
+#image-historia{
+    /* TAMANHO DA IMAGEM */
+    width: 510px;
+    height: 605px;
+    /* MARGEM */
+    margin-top: 90px;
+    margin-bottom: 80px;
+
+}
+#image-historia:hover{
+    /* ANIMANDO IMAGEM */
+    transform:translateX(-25px);
+    transition-duration: 0.7s;
+}
+/* FORMULARIO */
+#formulario{
+    /* DEIXANDO CONTEUDO ALINHADO NA PAGINA */
+    text-align: center;
+    /* COR */
+    background-color: #303030;
+}
+#h1-formulario{
+    /* COR */
+    color: white;
+    /* FONTE */
+    font-size: 28px;
+    font-weight: 700;
+    /* MARGEM */
+    padding-top:85px;
+    padding-bottom: 48px;
+}
+
+input{
+    /* TAMANHO DO INPUT */
+    width: 410px;
+    height: 50px;
+    /* BORDA REDONDA */
+    border-radius: 10px;
+    /* ZERANDO AS BORDAS */
+    border: 0px;
+    /* MARGEM */
+    margin-bottom: 45px;
+    padding-left: 20px;
+    /* FONTE */
+    font-family: 'Raleway';
+}
+button{
+    /* TAMANHO DO BUTTON */
+    width: 186px;
+    height: 50px;
+    /* BORDA REDONDA */
+    border-radius: 10px;
+    /* ZERANDO AS BORDAS */
+    border: 0px;
+    /* COR */
+    background: #C07212;
+    color: white;
+    /* FONTE */
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    /* MARGEM */
+    margin-bottom: 85px;
+    /* TRANSFORMANDO O CURSO DE SETA PARA MÃO PARA MOSTRAR QUE É BOTÃO */
+    cursor: pointer;
+}
+button:hover{
+    /* ANIMANDO BOTÃO */
+    transform:translateY(-7px);
+    transition-duration: 0.7s;
+    /* MUDANDO COR DO BOTÃO QUANDO PASSA O MOUSE EM CIMA */
+    background-color: #d18b35;
+    /* APLICANDO SOMBRA */
+    box-shadow: 0px 10px 10px 0px #cd9552;
+}
